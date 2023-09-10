@@ -1,0 +1,11 @@
+n,k=list(map(str,input().split()))
+l=[]
+m=[]
+for i in n:
+  l.append(i)
+if k not in l:
+  print("-1")
+else:
+  m.append(l.remove(k))
+  m.append(l.remove(k))
+  print(len(m))
